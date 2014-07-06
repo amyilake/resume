@@ -1,0 +1,18 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-image: image-url("retina_wood.png");
+}
+
+.container-narrow{
+  margin: 0 auto;
+  max-width: 60%;
+  border-top: 2em solid #252421;
+  padding: 2em 6em;
+  background: #fdf8f4;
+ }
+
+
