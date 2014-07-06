@@ -4,66 +4,7 @@
   <hr>
   <%= render 'exp' %>
   <hr>
-
-  <div class="jumbotron">
-    <h4>專案</h4>
-    <p>以下是曾經建置過的網站和手機APP</p>
-    <h4>網站</h4>
-
-    <li><h4>Story</h4></li>
-    <p>利用簡單的圖文編輯你的故事,並且可組成故事集</p>
-    <p>Technologies:Rails 4, rspec, active_model_serializers, cells, devise, simple_form, rmagick, carrierwave, ckeditor, redis, mustache, fancybox2, sanitize, omniauth-facebook, settingslogic</p>
-    <%= image_tag 'story1.png', :class => "project_photo"  %>
-    <%= image_tag 'story2.png', :class => "project_photo"  %>
-    
-    <hr>
-    
-    <li><h4>Diaspora</h4></li>
-    <p>網路上的opensource專案,參與修改增加blog功能</p>
-    <p>Technologies:Rails 3.2, haml, backbone.js</p>
-    <%= image_tag 'dia1.png', :class => "project_photo"  %>
-    <%= image_tag 'dia2.png', :class => "project_photo"  %>
-    
-    <hr>
-    
-    <li><h4>Strive</h4></li>
-    <p>一個記錄你努力的園地,並且可安排你的努力計畫</p>
-    <p>Technologies:Rails 4, rspec, fullcalendar, morrisjs, jquery-minicolors, will_paginate, jquery-datatables-rails</p>
-    <%= image_tag 'strive2.png', :class => "project_photo"  %>
-    <%= image_tag 'strive3.png', :class => "project_photo"  %>
-    
-    <hr>
-    
-    <li><h4>Hinet 旅遊雲</h4></li>
-    <p>建構一個完整的旅遊雲端資訊服務平台為宗旨</p>
-    <p>Technologies:jsp, jsf, javascript</p>
-    <%= image_tag 'travel1.png', :class => "project_photo"  %>
-    <%= image_tag 'travel2.png', :class => "project_photo"  %>
-    
-    <hr>
-    
-    <h4>手機APP</h4>
-    <div class="row-fluid"> 
-      <div class="span6">
-        <li><h4>路況快易通(iOS)</h4></li>
-        <%= image_tag 'mobile1.png', :class => "project_photo"  %>
-      </div>
-      <div class="span6">
-        <li><h4>愛上日月潭(Android)</h4></li>
-        <%= image_tag 'mobile2.png', :class => "project_photo"  %>
-      </div>
-    </div>
-    <div class="row-fluid"> 
-      <div class="span6">
-        <li><h4>愛上台北(iOS/Android)</h4></li>
-        <%= image_tag 'mobile3.png', :class => "project_photo"  %>
-      </div>
-      <div class="span6">
-        <li><h4>悠遊大雪山(iOS/Android)</h4></li>
-        <%= image_tag 'mobile4.png', :class => "project_photo"  %>
-      </div>
-    </div>
-  </div>
+  <%= render 'project' %>
   <hr>
 
   <div class="footer">
